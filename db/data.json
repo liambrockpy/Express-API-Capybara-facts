@@ -1,0 +1,49 @@
+{
+"capybarasFacts": [
+    {
+        "id": 1,
+        "title": "Food for thought 💩",
+        "description": "Much like rabbits, capybaras eat their own dung to extract maximum nutrition from their food!"
+    },
+    {
+        "id": 2,
+        "title": "No mean feet 🦅",
+        "description": "Capybaras have webbed feet that help them maneuver in water and escape predators like anacondas, wild cats and even eagles!"
+    },
+    {
+        "id": 3,
+        "title": "Freediving 🤿",
+        "description": "Capybaras can dive and stay underwater for up to 5 minutes!"
+    },
+    {
+        "id": 4,
+        "title": "Place your bets 🐎",
+        "description": "Capybaras can run on land at speeds up to 35 kilometers an hour - that's as fast as a horse!"
+    },
+    {
+        "id": 5,
+        "title": "Quiet, please! 🤫",
+        "description": "Capybaras have an extensive vocabulary, often expressing themselves through purring, barking, cackling, whistling, squealing, whining, grunting and even teeth-chattering!"
+    },
+    {
+        "id": 6,
+        "title": "Pearly whites 🦷",
+        "description": "Capybaras teeth never stop growing in order to keep up with the constant wear and tear from their diet!"
+    },
+    {
+        "id": 7,
+        "title": "Nature's ottoman 🦦",
+        "description": "Capybaras are easy-going critters - birds, rabbits, monkeys and even other capybaras have been spotted seated, perched or laying on the back of a much-obliging capybara!"
+    },
+    {
+        "id": 8,
+        "title": "I scratch your back... 💇",
+        "description": "Capybaras are incredibly social and display symbiotic relationships with other animals, offering a buffet of resident insects whilst enjoying their free grooming session in return!"
+    },
+    {
+        "id": 9,
+        "title": "Heavy hitter 😲",
+        "description": "Capybaras are heavier than they seem, weighing anywhere between 35 and 70 kilograms - that's as much as a human!"
+    }
+]
+}

@@ -23,7 +23,6 @@ class Fact {
 
     static findById(id) {
         const specificFact = Fact.all.filter(fact => fact.id === id)[0]
-        if (!specificFact) return
         return specificFact
     }
 
@@ -47,6 +46,7 @@ class Fact {
     delete() {
         const facts = Fact.all
         const index = facts.findIndex(fact => fact.id === this.id)
+        if (index === -1) return
         factsData.splice(index, 1)
     }
 }

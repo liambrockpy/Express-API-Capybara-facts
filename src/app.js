@@ -4,6 +4,8 @@ const cors = require('cors')
 const helmet = require('helmet')
 const morgan = require('morgan')
 const capybaraFactsRouter = require('./controllers/capybaras/capybaras.router')
+const errorHandler = require('./middleware/error.middleware')
+const notFoundHandler = require('./middleware/not-found.middleware')
 
 const app = express()
 
@@ -20,5 +22,9 @@ app.use(cors())
 app.use(morgan('combined'))
 
 app.use('/api/facts', capybaraFactsRouter)
+
+// ! following must be mounted after all routes as they close req-res cycle
+app.use(errorHandler)
+app.use(notFoundHandler)
 
 module.exports = app

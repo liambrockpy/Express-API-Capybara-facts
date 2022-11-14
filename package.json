@@ -4,8 +4,12 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-    "test": "jest",
-    "start": "nodemon ./server/server.js"
+    "test": "jest --detectOpenHandles",
+    "start": "nodemon ./server/server.js",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "coverageDirectory": "./tests/coverage"
   },
   "keywords": [],
   "author": "",
